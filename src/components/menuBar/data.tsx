@@ -11,27 +11,37 @@ import {
 export default [
   {
     active: false,
-    title: "test 1",
+    title: "Home",
     icon: <HomeIcon />,
   },
   {
     active: false,
-    title: "test 2",
+    title: "Explore",
     icon: <BellIcon />,
   },
   {
     active: false,
-    title: "test 3",
+    title: "Notifications",
     icon: <EmailIcon />,
   },
   {
     active: false,
-    title: "test 4",
+    title: "Messagens",
+    icon: <FavoriteIcon />,
+  },
+  {
+    active: false,
+    title: "Bookmarks",
     icon: <FavoriteIcon />,
   },
   {
     active: true,
-    title: "test 5",
+    title: "Profile",
     icon: <ProfileIcon />,
+  },
+  {
+    active: false,
+    title: "More",
+    icon: <FavoriteIcon />,
   },
 ];

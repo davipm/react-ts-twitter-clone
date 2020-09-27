@@ -37,13 +37,14 @@ export const Topside = styled.div`
 `;
 
 export const Logo = styled(Twitter)`
-  width: 41px;
-  height: 41px;
+  width: 30px;
+  height: 30px;
+  margin-left: 13px;
   margin-bottom: 20px;
   cursor: pointer;
 
   > path {
-    fill: var(--twitter);
+    fill: #fff;
   }
 `;
 
@@ -99,6 +100,7 @@ export const MenuButton = styled.button`
 
   @media (min-width: 1280px) {
     padding-right: 15px;
+    padding-left: 15px;
 
     > span {
       display: inline;
