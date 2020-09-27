@@ -1,17 +1,13 @@
 import React from "react";
 
+import menus from "./data";
 import Button from "../button";
 
 import {
   Container,
   MenuButton,
-  EmailIcon,
   Topside,
   Logo,
-  HomeIcon,
-  BellIcon,
-  FavoriteIcon,
-  ProfileIcon,
   Avatar,
   Botside,
   ExitIcon,
@@ -19,34 +15,6 @@ import {
 } from "./styles";
 
 function MenuBar() {
-  const menus = [
-    {
-      active: false,
-      title: "test 1",
-      icon: <HomeIcon />,
-    },
-    {
-      active: false,
-      title: "test 2",
-      icon: <BellIcon />,
-    },
-    {
-      active: false,
-      title: "test 3",
-      icon: <EmailIcon />,
-    },
-    {
-      active: false,
-      title: "test 4",
-      icon: <FavoriteIcon />,
-    },
-    {
-      active: true,
-      title: "test 5",
-      icon: <ProfileIcon />,
-    },
-  ];
-
   return (
     <Container>
       <Topside>
