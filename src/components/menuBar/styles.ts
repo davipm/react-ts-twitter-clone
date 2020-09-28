@@ -15,6 +15,19 @@ import {
 export const Container = styled.aside`
   display: none;
 
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--twitter);
+    border-radius: 10px;
+  }
+
   @media (min-width: 500px) {
     position: sticky;
     display: flex;
