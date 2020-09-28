@@ -43,7 +43,7 @@ function ProfilePage() {
             follow <strong>100</strong>
           </span>
           <span>
-            follow <strong>100</strong>
+            following <strong>100</strong>
           </span>
         </Followage>
       </ProfileData>
