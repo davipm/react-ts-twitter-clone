@@ -1,25 +1,55 @@
 import React from "react";
 
 import Feed from "../feed";
+import {
+  Container,
+  Banner,
+  Avatar,
+  ProfileData,
+  EditButton,
+  LocationIcon,
+  CakeIcon,
+  Followage,
+} from "./styles";
 
 function ProfilePage() {
   return (
-    <div>
-      <div>
-        <p>Avatar</p>
-      </div>
+    <Container>
+      <Banner>
+        <Avatar />
+      </Banner>
 
-      <div>
-        <button>Edit Profile</button>
+      <ProfileData>
+        <EditButton outlined>Edit Profile</EditButton>
 
         <h1>Davi Pereira</h1>
         <h3>@davi_pereira</h3>
 
-        <p></p>
-      </div>
+        <p>Test p</p>
+
+        <ul>
+          <li>
+            <LocationIcon />
+            Fortaleza, Brasil
+          </li>
+          <li>
+            <CakeIcon />
+            08 Dez
+          </li>
+        </ul>
+
+        <Followage>
+          <span>
+            follow <strong>100</strong>
+          </span>
+          <span>
+            follow <strong>100</strong>
+          </span>
+        </Followage>
+      </ProfileData>
 
       <Feed />
-    </div>
+    </Container>
   );
 }
 

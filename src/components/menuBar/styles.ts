@@ -8,6 +8,8 @@ import {
   Person,
   ExitToApp,
   Twitter,
+  FileList2,
+  BookmarkStar,
 } from "../../styles/icons";
 
 export const Container = styled.aside`
@@ -183,5 +185,13 @@ export const FavoriteIcon = styled(FavoriteBorder)`
 `;
 
 export const ProfileIcon = styled(Person)`
+  ${iconCSS}
+`;
+
+export const FileIcon = styled(FileList2)`
+  ${iconCSS}
+`;
+
+export const BookmarksIcon = styled(BookmarkStar)`
   ${iconCSS}
 `;

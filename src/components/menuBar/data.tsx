@@ -6,6 +6,8 @@ import {
   FavoriteIcon,
   HomeIcon,
   ProfileIcon,
+  FileIcon,
+  BookmarksIcon,
 } from "./styles";
 
 export default [
@@ -32,7 +34,12 @@ export default [
   {
     active: false,
     title: "Bookmarks",
-    icon: <FavoriteIcon />,
+    icon: <BookmarksIcon />,
+  },
+  {
+    active: false,
+    title: "Lists",
+    icon: <FileIcon />,
   },
   {
     active: true,
