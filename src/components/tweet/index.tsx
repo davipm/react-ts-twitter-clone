@@ -1,10 +1,12 @@
 import React from "react";
 
+import { Container } from "./styles";
+
 function Tweet() {
   return (
-    <div>
+    <Container>
       <div>
-        <span/>
+        <span />
         Você retweetou
       </div>
 
@@ -41,7 +43,7 @@ function Tweet() {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
 
