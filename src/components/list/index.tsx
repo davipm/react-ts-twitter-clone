@@ -1,10 +1,23 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-function List() {
+import { Container } from "./styles";
+
+interface Props {
+  title: string;
+  elements: ReactNode[];
+}
+
+function List({ title, elements }: Props) {
   return (
-    <div>
-      <p>List</p>
-    </div>
+    <Container>
+      <div>
+        <h1>{title}</h1>
+      </div>
+
+      {elements.map((item, index) => (
+        <div key={index}>{item}</div>
+      ))}
+    </Container>
   );
 }
 
