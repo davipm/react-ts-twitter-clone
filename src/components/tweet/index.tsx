@@ -8,6 +8,13 @@ import {
   Avatar,
   Content,
   Header,
+  Dot,
+  Description,
+  ImageContent,
+  Icons,
+  Status,
+  LikeIcon,
+  CommentIcon,
 } from "./styles";
 
 function Tweet() {
@@ -25,30 +32,28 @@ function Tweet() {
           <Header>
             <strong>Davi Pereira</strong>
             <span>@davi_pereira</span>
-            <span />
+            <Dot />
             <time>10 de dez</time>
           </Header>
 
-          <div>Test</div>
+          <Description>Test</Description>
 
-          <span />
+          <ImageContent />
 
-          <div>
-            <div>
-              <span />
+          <Icons>
+            <Status>
+              <CommentIcon />
               18
-            </div>
-
-            <div>
-              <span />
+            </Status>
+            <Status>
+              <RetweetIcon />
               18
-            </div>
-
-            <div>
-              <span />
+            </Status>
+            <Status>
+              <LikeIcon />
               18
-            </div>
-          </div>
+            </Status>
+          </Icons>
         </Content>
       </Body>
     </Container>
