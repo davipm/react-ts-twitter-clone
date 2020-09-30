@@ -23,7 +23,7 @@ export const Banner = styled.div`
   background-color: var(--twitter);
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.span`
   position: absolute;
   left: 15px;
   width: max(45px, min(135px, 22vw));
