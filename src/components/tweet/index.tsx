@@ -1,25 +1,33 @@
 import React from "react";
 
-import { Container } from "./styles";
+import {
+  Container,
+  RetweetIcon,
+  Body,
+  Retweeted,
+  Avatar,
+  Content,
+  Header,
+} from "./styles";
 
 function Tweet() {
   return (
     <Container>
-      <div>
-        <span />
-        Você retweetou
-      </div>
+      <Retweeted>
+        <RetweetIcon />
+        You Retweeted
+      </Retweeted>
 
-      <div>
-        <span />
+      <Body>
+        <Avatar />
 
-        <div>
-          <div>
+        <Content>
+          <Header>
             <strong>Davi Pereira</strong>
             <span>@davi_pereira</span>
             <span />
             <time>10 de dez</time>
-          </div>
+          </Header>
 
           <div>Test</div>
 
@@ -41,8 +49,8 @@ function Tweet() {
               18
             </div>
           </div>
-        </div>
-      </div>
+        </Content>
+      </Body>
     </Container>
   );
 }
