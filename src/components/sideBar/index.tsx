@@ -5,11 +5,18 @@ import List from "../list";
 import News from "../news";
 import FollowSuggestion from "../followSuggestion";
 
-import { Container, Body, SearchInput } from "./styles";
+import {
+  Container,
+  Body,
+  SearchInput,
+  SearchIcon,
+  SearchWrapper,
+} from "./styles";
 
 const followSuggestion = [
-  <FollowSuggestion name="Test" nickname="test" />, 
-  <FollowSuggestion name="Test" nickname="test" />
+  <FollowSuggestion name="Test" nickname="test" />,
+  <FollowSuggestion name="Test" nickname="test" />,
+  <FollowSuggestion name="Test" nickname="test" />,
 ];
 
 const news = [
@@ -26,10 +33,10 @@ const news = [
 function SideBar() {
   return (
     <Container>
-      <div>
+      <SearchWrapper>
         <SearchInput type="text" placeholder="Search in twitter" />
-        <span />
-      </div>
+        <SearchIcon />
+      </SearchWrapper>
 
       <StickBox>
         <Body>
