@@ -7,7 +7,10 @@ import FollowSuggestion from "../followSuggestion";
 
 import { Container, Body, SearchInput } from "./styles";
 
-const followSuggestion = [<FollowSuggestion />, <FollowSuggestion />];
+const followSuggestion = [
+  <FollowSuggestion name="Test" nickname="test" />, 
+  <FollowSuggestion name="Test" nickname="test" />
+];
 
 const news = [
   <News />,
