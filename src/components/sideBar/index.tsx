@@ -40,8 +40,8 @@ function SideBar() {
 
       <StickBox>
         <Body>
-          <List title="Test" elements={followSuggestion} />
-          <List title="Test" elements={news} />
+          <List title="Lorem Lorem Lorem" elements={followSuggestion} />
+          <List title="Lorem Lorem Lorem" elements={news} />
         </Body>
       </StickBox>
     </Container>

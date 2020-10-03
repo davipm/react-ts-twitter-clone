@@ -23,9 +23,11 @@ function ProfilePage() {
         <EditButton outlined>Edit Profile</EditButton>
 
         <h1>Davi Pereira</h1>
-        <h3>@davi_pereira</h3>
+        <h2>@davi_pereira</h2>
 
-        <p>Test p</p>
+        <p>
+          Developer by <a href="!#">Davi Pereira</a>
+        </p>
 
         <ul>
           <li>

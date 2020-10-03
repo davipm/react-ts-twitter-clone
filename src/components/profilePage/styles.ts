@@ -43,6 +43,7 @@ export const ProfileData = styled.div`
   > h1 {
     font-weight: bold;
     font-size: 19px;
+    margin: 0;
   }
 
   > h2 {

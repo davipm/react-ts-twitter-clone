@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-import { Container } from "./styles";
+import { Container, Item, Title } from "./styles";
 
 interface Props {
   title: string;
@@ -10,12 +10,12 @@ interface Props {
 function List({ title, elements }: Props) {
   return (
     <Container>
-      <div>
-        <h1>{title}</h1>
-      </div>
+      <Item>
+        <Title>{title}</Title>
+      </Item>
 
       {elements.map((item, index) => (
-        <div key={index}>{item}</div>
+        <Item key={index}>{item}</Item>
       ))}
     </Container>
   );
